@@ -34,6 +34,15 @@
       "react-app/jest"
     ]
   },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:3000",
+      "secure": false,
+      "headers": {
+        "cache-control": "no-cache"
+      }
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
