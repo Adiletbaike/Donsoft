@@ -18,7 +18,6 @@
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 6rem;
-  height: 100%;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -38,6 +37,5 @@
 
 html,
 body {
-  height: 100vh;
   margin: 0;
 }
